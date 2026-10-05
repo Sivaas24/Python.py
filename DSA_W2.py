@@ -177,8 +177,11 @@ largest = 0
 second = 0
 for i in numbers:
     if i > largest :
-        = largest
-
+        largest = i
+for i in numbers :
+    if  i != largest and i > second :
+        second = i
+print(second)
 
 
 
