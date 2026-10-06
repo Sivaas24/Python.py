@@ -184,8 +184,16 @@ for i in numbers:
 print(second)
 '''
 
-
-
+# Find Duplicate Elements in a List.
+'''
+numbers = [10, 5, 8, 10, 15, 5]
+seen = []
+for i in numbers:
+    if i in seen:
+        print("Duplicate:", i)
+    else:
+        seen.append(i)
+'''
 
 
 
