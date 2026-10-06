@@ -171,17 +171,19 @@ print(reverse)
 '''     
 
 # Find the Second Largest number in a list
-
+'''
 numbers = [10, 5, 8, 20, 15]
 largest = 0
 second = 0
 for i in numbers:
     if i > largest :
+        second = largest
         largest = i
-for i in numbers :
-    if  i != largest and i > second :
+    elif i > second :
         second = i
 print(second)
+'''
+
 
 
 
